@@ -1,7 +1,4 @@
 .quizz_container{
-  width: 80%;
-  margin: auto;
-  margin-top: 2rem;
 }
 
 .quizz_logo{
@@ -33,7 +30,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: auto;
+  gap: 1rem;
 }
 
 .quizz_option-btn{
