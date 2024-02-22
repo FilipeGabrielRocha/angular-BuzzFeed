@@ -1,18 +1,18 @@
 <div class="quizz_container">
   <section class="quizz_logo">
     <img src="assets/img/logo-buuz-feed.png" alt="">
-    <h3>Título</h3>
+    <h3>{{ title }}</h3>
   </section>
 
   <section class="quizz_questions">
-    <h3>Questão selecionada</h3>
+    <h3>{{questionSelected.question}}</h3>
   </section>
 
   <section class="quizz_options">
     <button class="quizz_option-btn">optionname</button>
   </section>
 
-  <section class="quizz_results">
+  <section *ngIf="finished" class="quizz_results">
     <h1>O seu resultado é:</h1>
     <p>Resposta Selecionada</p>
   </section>
